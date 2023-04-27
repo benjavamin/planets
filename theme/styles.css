@@ -1,0 +1,446 @@
+.content {
+    background: url('./../assets/background-stars.svg') #070724 no-repeat fixed center;
+    font-family: 'Antonio', sans-serif;
+    box-sizing: border-box;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #979797;
+}
+
+.navbar-item {
+    /* padding-right: 25px; */
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
+
+.navbar .navbar-title-left {
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 25px;
+    font-size: 28px;
+    line-height: 21px;
+    letter-spacing: -1.05px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: 1;
+}
+
+.navbar-items h4 {
+    cursor: pointer;
+}
+
+.planet-title {
+    margin-bottom: 20px;
+}
+
+.planet-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.wikipedia-link {
+    color: #979797;
+    font-weight: 700;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+}
+
+.planet-image {
+    display: flex;
+    flex: 1;
+    height: auto;
+    width: 290px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.planet-image-geology {
+    top: 20px;
+    position: absolute;
+    display: none;
+    height: 199px;
+    width: 163px;
+    top: 620px;
+}
+
+.planet-info-first-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    place-items: center;
+    width: 80%;
+    padding: 40px 0 50px 0;
+    gap: 0 50px;
+    margin: 0 auto;
+}
+
+.planet-info-second-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.planet-details {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.planet-info {
+    width: 350px;
+    text-align: left;
+    font-size: 18px;
+    min-height: 150px;
+}
+
+.sections-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.section {
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #070724;
+    border: 0.5px solid #838391;
+    margin-top: 20px;
+}
+
+.section-text {
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'League Spartan', sans-serif;
+    letter-spacing: 2.57px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.section-text-number {
+    color: #CAC7C7;
+}
+
+.planet-fact {
+    height: 128px;
+    width: 255px;
+    opacity: 1;
+    border: 1px solid #838391;
+}
+
+.planet-fact-title {
+    color: #838391;
+    font-size: 14px;
+    font-family: 'League Spartan', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.planet-fact-content {
+    padding-left: 20px;
+}
+
+
+.button {
+    height: 48px;
+    width: 350px;
+}
+
+.hamburger {
+    height: 17px;
+    width: 24px;
+    display: none;
+}
+
+.navbar-item-chevron {
+    display: none;
+}
+
+.navbar-item-color {
+    display: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.navbar-title-color-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+.planet-mobile-sections-container {
+    display: none
+}
+
+@media (min-width: 1200px) {
+    .content {
+        width: 1440px;
+    }
+
+    .navbar {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+
+    .content {
+        width: 1199px;
+        margin: 0 auto;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-title-left {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-items {
+        justify-content: space-between;
+        padding: 0 35px;
+    }
+
+    .navbar-item {
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 14px;
+    }
+
+    .planet-info {
+        width: auto;
+        margin-right: 20px;
+        min-height: auto;
+    }
+
+    .button {
+        width: auto;
+    }
+
+    .planet-sections-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+    .sections {
+        width: 100%;
+    }
+
+    .planet-details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .planet-info-first-section {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+    }
+
+    .planet-info-second-section {
+        width: 90%;
+    }
+
+    .planet-info-source {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 991px) {
+
+    .content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .navbar-items {
+        display: none;
+    }
+
+    .navbar {
+        align-items: center;
+    }
+
+    .navbar-item {
+        font-size: 18px;
+        padding-right: 0px;
+    }
+
+    .navbar-item-color {
+        display: block;
+    }
+
+    .navbar-items.active {
+        position: fixed;
+        left: 0;
+        top: 80px;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: #070724;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-item-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        font-size: 18px;
+        padding-right: 20px;
+        margin-top: -20px;
+    }
+
+    .navbar-item-chevron {
+        display: flex;
+        width: 4px;
+        height: 8px;
+    }
+
+    .planet-image {
+        height: auto;
+    }
+
+    .planet-sections-container {
+        display: none;
+    }
+
+    .planet-mobile-sections-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hamburger {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 35px;
+        cursor: pointer;
+    }
+
+    .planet-info-first-section {
+        display: grid;
+        grid-template-columns: auto;
+        place-items: center;
+        width: 80%;
+        padding: 40px 0 50px 0;
+        gap: 0 50px;
+        margin: 0 auto;
+    }
+
+    .planet-info {
+        width: 100%;
+        min-height: auto;
+        text-align: center;
+    }
+
+    .planet-info-source {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .planet-fact {
+        width: 100%;
+        height: 48px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .planet-fact-title {
+        padding: 0 0 0 20px;
+    }
+
+    .planet-fact-content {
+        font-size: 20px;
+        padding-right: 20px;
+    }
+
+    .planet-info-second-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: row;
+        width: 80%;
+        margin: 0 auto;
+        gap: 15px;
+        margin-bottom: 50px;
+    }
+
+    .planet-title {
+        text-align: center;
+    }
+
+    .sections {
+        width: 100%;
+        height: 46px;
+    }
+
+    .sections-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0px;
+        padding: 0 25px;
+    }
+
+    .section-text {
+        margin-left: 0px;
+        font-size: 9px;
+        font-weight: 700;
+        color: #FFFFFFA6;
+    }
+
+    .button {
+        width: auto;
+        border-right: 0px;
+    }
+
+    .planet-image-geology {
+        position: absolute;
+        display: none;
+        height: calc(199px / 2);
+        width: calc(163px / 2);
+        top: 550px;
+    }
+
+    .section {
+        padding: 15px 0px;
+        border: none;
+        margin-bottom: 15px;
+        color: #ffffff;
+    }
+
+}

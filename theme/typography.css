@@ -1,0 +1,50 @@
+h1 {
+    font-family: 'Antonio', sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 103px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Antonio', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 52px;
+    letter-spacing: -1.5px;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 25px;
+    letter-spacing: 2.6px;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #FFFFFFA3;
+}
+
+p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+span {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-weight: 300; 
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./theme/styles.css">
+  <link rel="stylesheet" href="./theme/typography.css">
+  <link rel="stylesheet" href="./theme/colors.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Antonio:wght@300;400;500;700&family=League+Spartan:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <script src="./app-core.js" type="module" defer></script>
+
+  <title>Planets</title>
+</head>
+
+<body class="content">
+  <div class="navbar">
+    <h2 class="white navbar-title-left"> The Planets </h2>
+    <img class="hamburger" src="./assets/icon-hamburger.svg" alt="Menu" />
+    <div class="navbar-items">
+      <div class="navbar-item-wrapper">
+        <div class="navbar-title-color-wrapper --mercury active">
+          <div class="navbar-item-color --mercury"></div>
+          <h4 class="navbar-item">Mercury</h4>
+        </div>
+        <div class="navbar-item-chevron">
+          <img src="./assets/icon-chevron.svg" alt="">
+        </div>
+      </div>
+      <div class="navbar-item-wrapper">
+        <div class="navbar-title-color-wrapper --venus">
+          <div class="navbar-item-color --venus"></div>
+          <h4 class="navbar-item">Venus</h4>
+        </div>
+        <div class="navbar-item-chevron">
+          <img src="./assets/icon-chevron.svg" alt="">
+        </div>
+      </div>
+      <div class="navbar-item-wrapper">
+        <div class="navbar-title-color-wrapper --earth">
+          <div class="navbar-item-color --earth"></div>
+          <h4 class="navbar-item">Earth</h4>
+        </div>
+        <div class="navbar-item-chevron">
+          <img src="./assets/icon-chevron.svg" alt="">
+        </div>
+      </div>
+      <div class="navbar-item-wrapper">
+        <div class="navbar-title-color-wrapper --mars">
+        <div class="navbar-item-color --mars"></div>
+        <h4 class="navbar-item">Mars</h4>
+        </div>
+        <div class="navbar-item-chevron">
+          <img src="./assets/icon-chevron.svg" alt="">
+        </div>
+      </div>
+      <div class="navbar-item-wrapper">
+        <div class="navbar-title-color-wrapper --jupiter">
+        <div class="navbar-item-color --jupiter"></div>
+        <h4 class="navbar-item">Jupiter</h4>
+        </div>
+        <div class="navbar-item-chevron">
+          <img src="./assets/icon-chevron.svg" alt="">
+        </div>
+      </div>
+      <div class="navbar-item-wrapper">
+        <div class="navbar-title-color-wrapper --saturn">
+          <div class="navbar-item-color --saturn"></div>
+          <h4 class="navbar-item">Saturn</h4>
+        </div>
+        <div class="navbar-item-chevron">
+          <img src="./assets/icon-chevron.svg" alt="">
+        </div>
+      </div>
+      <div class="navbar-item-wrapper">
+        <div class="navbar-title-color-wrapper --uranus">
+        <div class="navbar-item-color --uranus"></div>
+        <h4 class="navbar-item">Uranus</h4>
+        </div>
+        <div class="navbar-item-chevron">
+          <img src="./assets/icon-chevron.svg" alt="">
+        </div>
+      </div>
+      <div class="navbar-item-wrapper">
+        <div class="navbar-title-color-wrapper --neptune">
+        <div class="navbar-item-color --neptune"></div>
+        <h4 class="navbar-item">Neptune</h4>
+        </div>
+        <div class="navbar-item-chevron">
+          <img src="./assets/icon-chevron.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="planet-mobile-sections-container">
+    <div class="sections">
+      <div class="sections-list">
+        <button class="section button overview-btn active">
+          <div class="section-text">
+            Overview
+          </div>
+        </button>
+        <button class="section button structure-btn">
+          <div class="section-text">
+            Structure
+          </div>
+        </button>
+        <button class="section button geology-btn">
+          <div class="section-text">
+            Surface
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="planet-content">
+    <div class="planet-info-first-section">
+      <div class="planet-image">
+        <img class="planet-image-default" alt="Image of the planet"></img>
+        <img class="planet-image-geology" alt="Image of the planet and its surface"></img>
+      </div>
+      <div class="planet-details">
+        <div class="planet-info-container">
+          <h1 class="planet-title white"></h1>
+          <p class="planet-info white"></p>
+          <div class="planet-info-source">
+            <span class="white"> Source: </span>
+            <a class="wikipedia-link" href="#" target="_blank"> Wikipedia </a>
+            <img src="./assets/icon-source.svg" alt="Wikipedia Source">
+          </div>
+        </div>
+        <div class="planet-sections-container">
+          <div class="sections">
+            <div class="sections-list">
+              <button class="section button overview-btn">
+                <div class="section-text section-text-number">
+                  01
+                </div>
+                <div class="section-text">
+                  Overview
+                </div>
+              </button>
+              <button class="section button structure-btn">
+                <div class="section-text section-text-number">
+                  02
+                </div>
+                <div class="section-text">
+                  Internal Structure
+                </div>
+              </button>
+              <button class="section button geology-btn">
+                <div class="section-text section-text-number">
+                  03
+                </div>
+                <div class="section-text">
+                  Surface Geology
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="planet-info-second-section">
+    <div class="planet-fact">
+      <div class="planet-fact-title">Rotation Time</div>
+      <h2 class="planet-fact-content" id="rotation-time"></h2>
+    </div>
+    <div class="planet-fact">
+      <div class="planet-fact-title">Revolution Time</div>
+      <h2 class="planet-fact-content" id="revolution-time"></h2>
+    </div>
+    <div class="planet-fact">
+      <div class="planet-fact-title">Radius</div>
+      <h2 class="planet-fact-content" id="radius"></h2>
+    </div>
+    <div class="planet-fact">
+      <div class="planet-fact-title">Average Temp.</div>
+      <h2 class="planet-fact-content" id="avg-temp"></h2>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

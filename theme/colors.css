@@ -1,0 +1,372 @@
+.white {
+    color: #FFFFFF;
+}
+
+.dark-blue {
+    color: #070724;
+}
+
+.blue {
+    color: #2D68F0;
+}
+
+.light-blue {
+    color: #419EBB;
+}
+
+.dark-gray {
+    color: #38384F;
+}
+
+.light-gray {
+    color: #838391;
+}
+
+.light-orange {
+    color: #EDA249;
+}
+
+.dark-orange {
+    color: #CD5120;
+}
+
+.orange {
+    color: #D14C32;
+}
+
+.purple {
+    color: #6D2ED5;
+}
+
+.red {
+    color: #D83A34;
+}
+
+.torquoise {
+    color: #1EC1A2;
+}
+
+.button-default {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.button-active {
+    color: #419EBB;
+}
+
+button:hover {
+    color: #D8D8D8;
+}
+
+.planet-sections-container .--mercury.overview-btn.active {
+    background-color: #419EBB;
+}
+
+.planet-sections-container .--mercury.structure-btn.active {
+    background-color: #419EBB;
+}
+
+.planet-sections-container .--mercury.geology-btn.active {
+    background-color: #419EBB;
+}
+
+.planet-sections-container .--mercury.section:hover {
+    background-color: #419EBB;
+}
+
+.planet-sections-container .--venus.overview-btn.active {
+    background-color: #EDA249;
+}
+
+.planet-sections-container .--venus.structure-btn.active {
+    background-color: #EDA249;
+}
+
+.planet-sections-container .--venus.geology-btn.active {
+    background-color: #EDA249;
+}
+
+.planet-sections-container .--venus.section:hover {
+    background-color: #EDA249;
+}
+
+.planet-sections-container .--earth.overview-btn.active {
+    background-color: #6D2ED5;
+}
+
+.planet-sections-container .--earth.structure-btn.active {
+    background-color: #6D2ED5;
+}
+
+.planet-sections-container .--earth.geology-btn.active {
+    background-color: #6D2ED5;
+}
+
+.planet-sections-container .--earth.section:hover {
+    background-color: #6D2ED5;
+}
+
+.planet-sections-container .--mars.overview-btn.active {
+    background-color: #D14C32;
+}
+
+.planet-sections-container .--mars.structure-btn.active {
+    background-color: #D14C32;
+}
+
+.planet-sections-container .--mars.geology-btn.active {
+    background-color: #D14C32;
+}
+
+.planet-sections-container .--mars.section:hover {
+    background-color: #D14C32;
+}
+
+.planet-sections-container .--jupiter.overview-btn.active {
+    background-color: #D83A34;
+}
+
+.planet-sections-container .--jupiter.structure-btn.active {
+    background-color: #D83A34;
+}
+
+.planet-sections-container .--jupiter.geology-btn.active {
+    background-color: #D83A34;
+}
+
+.planet-sections-container .--jupiter.section:hover {
+    background-color: #D83A34;
+}
+
+.planet-sections-container .--saturn.overview-btn.active {
+    background-color: #CD5120;
+}
+
+.planet-sections-container .--saturn.structure-btn.active {
+    background-color: #CD5120;
+}
+
+.planet-sections-container .--saturngeology-btn.active {
+    background-color: #CD5120;
+}
+
+.planet-sections-container .--saturn.section:hover {
+    background-color: #CD5120;
+}
+
+.planet-sections-container .--uranus.overview-btn.active {
+    background-color: #1EC1A2;
+}
+
+.planet-sections-container .--uranus.structure-btn.active {
+    background-color: #1EC1A2;
+}
+
+.planet-sections-container .--uranus.geology-btn.active {
+    background-color: #1EC1A2;
+}
+
+.planet-sections-container .--uranus.section:hover {
+    background-color: #1EC1A2;
+}
+
+.planet-sections-container .--neptune.overview-btn.active {
+    background-color: #2D68F0;
+}
+
+.planet-sections-container .--neptune.structure-btn.active {
+    background-color: #2D68F0;
+}
+
+.planet-sections-container .--neptune.geology-btn.active {
+    background-color: #2D68F0;
+}
+
+.--neptune.planet-sections-container.section:hover {
+    background-color: #2D68F0;
+}
+
+.navbar-title-color-wrapper.--mercury.active {
+    border-top: 2px solid #419EBB;
+}
+
+.navbar-title-color-wrapper.--venus.active {
+    border-top: 2px solid #EDA249;
+}
+
+.navbar-title-color-wrapper.--mars.active {
+    border-top: 2px solid #D14C32;
+}
+
+.navbar-title-color-wrapper.--earth.active {
+    border-top: 2px solid #6D2ED5;
+}
+
+.navbar-title-color-wrapper.--jupiter.active {
+    border-top: 2px solid #D83A34;
+}
+
+.navbar-title-color-wrapper.--saturn.active {
+    border-top: 2px solid #CD5120;
+}
+
+.navbar-title-color-wrapper.--uranus.active {
+    border-top: 2px solid #1EC1A2;
+}
+
+.navbar-title-color-wrapper.--neptune.active {
+    border-top: 2px solid #2D68F0;
+}
+
+.navbar-item-color.--mercury {
+    background-color: #419EBB;
+}
+
+.navbar-item-color.--venus {
+    background-color: #EDA249;
+}
+
+.navbar-item-color.--mars {
+    background-color:  #D14C32;
+}
+
+.navbar-item-color.--earth {
+    background-color:  #6D2ED5;
+}
+
+.navbar-item-color.--jupiter {
+    background-color:  #D83A34;
+}
+
+.navbar-item-color.--saturn {
+    background-color:  #CD5120;
+}
+
+.navbar-item-color.--uranus {
+    background-color:  #1EC1A2;
+}
+
+.navbar-item-color.--neptune {
+    background-color:  #2D68F0;
+}
+
+.planet-mobile-sections-container .--mercury.overview-btn.active {
+    border-bottom: 2px solid #419EBB;
+}
+
+
+.planet-mobile-sections-container .--venus.overview-btn.active {
+    border-bottom: 2px solid #EDA249;
+}
+
+
+.planet-mobile-sections-container .--mars.overview-btn.active {
+    border-bottom: 2px solid #D14C32;
+}
+
+
+.planet-mobile-sections-container .--earth.overview-btn.active {
+    border-bottom: 2px solid #6D2ED5;
+}
+
+
+.planet-mobile-sections-container .--saturn.overview-btn.active {
+    border-bottom: 2px solid #CD5120;
+}
+
+
+.planet-mobile-sections-container .--jupiter.overview-btn.active {
+    border-bottom: 2px solid #D83A34;
+}
+
+
+.planet-mobile-sections-container .--neptune.overview-btn.active {
+    border-bottom: 2px solid #2D68F0;
+}
+
+
+.planet-mobile-sections-container .--uranus.overview-btn.active {
+    border-bottom: 2px solid #1EC1A2;
+}
+
+
+.planet-mobile-sections-container .--mercury.structure-btn.active {
+    border-bottom: 2px solid #419EBB;
+}
+
+
+.planet-mobile-sections-container .--venus.structure-btn.active {
+    border-bottom: 2px solid #EDA249;
+}
+
+
+.planet-mobile-sections-container .--mars.structure-btn.active {
+    border-bottom: 2px solid #D14C32;
+}
+
+
+.planet-mobile-sections-container .--earth.structure-btn.active {
+    border-bottom: 2px solid #6D2ED5;
+}
+
+
+.planet-mobile-sections-container .--saturn.structure-btn.active {
+    border-bottom: 2px solid #CD5120;
+}
+
+
+.planet-mobile-sections-container .--jupiter.structure-btn.active {
+    border-bottom: 2px solid #D83A34;
+}
+
+
+.planet-mobile-sections-container .--neptune.structure-btn.active {
+    border-bottom: 2px solid #2D68F0;
+}
+
+
+.planet-mobile-sections-container .--uranus.structure-btn.active {
+    border-bottom: 2px solid #1EC1A2;
+}
+
+.planet-mobile-sections-container .--mercury.geology-btn.active {
+    border-bottom: 2px solid #419EBB;
+}
+
+
+.planet-mobile-sections-container .--venus.geology-btn.active {
+    border-bottom: 2px solid #EDA249;
+}
+
+
+.planet-mobile-sections-container .--mars.geology-btn.active {
+    border-bottom: 2px solid #D14C32;
+}
+
+
+.planet-mobile-sections-container .--earth.geology-btn.active {
+    border-bottom: 2px solid #6D2ED5;
+}
+
+
+.planet-mobile-sections-container .--saturn.geology-btn.active {
+    border-bottom: 2px solid #CD5120;
+}
+
+
+.planet-mobile-sections-container .--jupiter.geology-btn.active {
+    border-bottom: 2px solid #D83A34;
+}
+
+
+.planet-mobile-sections-container .--neptune.geology-btn.active {
+    border-bottom: 2px solid #2D68F0;
+}
+
+
+.planet-mobile-sections-container .--uranus.geology-btn.active {
+    border-bottom: 2px solid #1EC1A2;
+}
+
+
