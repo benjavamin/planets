@@ -5,12 +5,10 @@ const planetImageGeology = document.querySelector('.planet-image-geology');
 const planetTitle = document.querySelector('.planet-title');
 const planetInfo = document.querySelector('.planet-info');
 const navbarItems = document.querySelector('.navbar-items');
-const allNavItems = document.querySelectorAll('.navbar-item');
 const allNavbarTitleColorWrappers = document.querySelectorAll('.navbar-title-color-wrapper');
 const overviewSectionButtons = document.querySelectorAll('.overview-btn');
 const structureSectionButtons = document.querySelectorAll('.structure-btn');
 const geologySectionButtons = document.querySelectorAll('.geology-btn');
-const navbarChevrons = document.querySelectorAll('.navbar-item-chevron');
 const rotationTimeFact = document.querySelector('#rotation-time');
 const revolutionTimeFact = document.querySelector('#revolution-time');
 const radiusFact = document.querySelector('#radius');
@@ -108,16 +106,9 @@ window.onload = () => {
     setOverviewSectionAsActive();
 }
 
-// allNavItems.forEach(planetNavItem => {
-//     const planetName = planetNavItem.textContent;
-//     planetNavItem.addEventListener('click', () => {
-//         allNavItems.forEach(planetNav => {
-//             planetNav.classList.remove('active');
-//         });
-//         loadPlanetData(planetName);
-//         planetNavItem.classList.add('active');
-//     })
-// });
+window.onresize = () => {
+    if (innerWidth > 991) closeMobileMenu();
+}
 
 allNavbarTitleColorWrappers.forEach(wrapperItem => {
     const planetName = wrapperItem.textContent.trim();

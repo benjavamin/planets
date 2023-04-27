@@ -14,10 +14,6 @@
     border-bottom: 1px solid #979797;
 }
 
-.navbar-item {
-    /* padding-right: 25px; */
-}
-
 .navbar-items {
     display: flex;
     flex-direction: row;
@@ -63,10 +59,10 @@
     display: flex;
     flex: 1;
     height: auto;
-    width: 290px;
+    width: auto;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    max-height: 582px;
 }
 
 .planet-image-geology {
