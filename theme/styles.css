@@ -64,12 +64,12 @@
 }
 
 .planet-image-geology {
-    top: 20px;
+    /* top: 20px; */
     position: absolute;
     display: none;
     height: 199px;
     width: 163px;
-    top: 620px;
+    top: 80%;
 }
 
 .planet-info-first-section {
@@ -354,6 +354,7 @@
         padding: 40px 0 50px 0;
         gap: 0 50px;
         margin: 0 auto;
+        margin-top: 100px;
     }
 
     .planet-info {
@@ -425,10 +426,11 @@
 
     .planet-image-geology {
         position: absolute;
-        display: none;
-        height: calc(199px / 2);
-        width: calc(163px / 2);
-        top: 550px;
+        display: block;
+        height: 80px;
+        width: 80px;
+        top: 100%;
+        right: 45%
     }
 
     .section {

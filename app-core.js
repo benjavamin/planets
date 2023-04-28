@@ -49,11 +49,13 @@ const toggleMobileMenu = () => {
         closeMobileMenu();
     } else {
         navbarItems.classList.add('active');
+        document.body.style.overflowY = 'hidden';
     }
 }
 
 const closeMobileMenu = () => {
     navbarItems.classList.remove('active');
+    document.body.style.overflowY = 'visible';
 }
 
 const loadPlanetData = (planetName, section) => {
@@ -76,7 +78,6 @@ const loadPlanetData = (planetName, section) => {
 }
 
 overviewSectionButtons.forEach(button => {
-    console.log(JSON.stringify(button))
     button.addEventListener('click', () => {
         loadPlanetData(selectedPlanet.name, 'overview');
         setOverviewSectionAsActive();
@@ -123,7 +124,6 @@ allNavbarTitleColorWrappers.forEach(wrapperItem => {
 
 const setButtonClasses = () => {
     const planetClassName = "--" + selectedPlanet.name.toLowerCase();
-    console.log(planetClassName);
     overviewSectionButtons.forEach(button => button.classList.add(planetClassName));
     structureSectionButtons.forEach(button => button.classList.add(planetClassName));
     geologySectionButtons.forEach(button => button.classList.add(planetClassName));

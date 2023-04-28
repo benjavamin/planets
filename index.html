@@ -25,7 +25,7 @@
       <div class="navbar-item-wrapper">
         <div class="navbar-title-color-wrapper --mercury active">
           <div class="navbar-item-color --mercury"></div>
-          <h4 class="navbar-item">Mercury</h4>
+          <h4 class="navbar-item" tabindex="0" aria-label="Mercury">Mercury</h4>
         </div>
         <div class="navbar-item-chevron">
           <img src="./assets/icon-chevron.svg" alt="">
@@ -34,7 +34,7 @@
       <div class="navbar-item-wrapper">
         <div class="navbar-title-color-wrapper --venus">
           <div class="navbar-item-color --venus"></div>
-          <h4 class="navbar-item">Venus</h4>
+          <h4 class="navbar-item" tabindex="1" aria-label="Venus">Venus</h4>
         </div>
         <div class="navbar-item-chevron">
           <img src="./assets/icon-chevron.svg" alt="">
@@ -43,7 +43,7 @@
       <div class="navbar-item-wrapper">
         <div class="navbar-title-color-wrapper --earth">
           <div class="navbar-item-color --earth"></div>
-          <h4 class="navbar-item">Earth</h4>
+          <h4 class="navbar-item" tabindex="2" aria-label="Earth">Earth</h4>
         </div>
         <div class="navbar-item-chevron">
           <img src="./assets/icon-chevron.svg" alt="">
@@ -52,7 +52,7 @@
       <div class="navbar-item-wrapper">
         <div class="navbar-title-color-wrapper --mars">
         <div class="navbar-item-color --mars"></div>
-        <h4 class="navbar-item">Mars</h4>
+        <h4 class="navbar-item" tabindex="3" aria-label="Mars">Mars</h4>
         </div>
         <div class="navbar-item-chevron">
           <img src="./assets/icon-chevron.svg" alt="">
@@ -61,7 +61,7 @@
       <div class="navbar-item-wrapper">
         <div class="navbar-title-color-wrapper --jupiter">
         <div class="navbar-item-color --jupiter"></div>
-        <h4 class="navbar-item">Jupiter</h4>
+        <h4 class="navbar-item" tabindex="4" aria-label="Jupiter">Jupiter</h4>
         </div>
         <div class="navbar-item-chevron">
           <img src="./assets/icon-chevron.svg" alt="">
@@ -70,7 +70,7 @@
       <div class="navbar-item-wrapper">
         <div class="navbar-title-color-wrapper --saturn">
           <div class="navbar-item-color --saturn"></div>
-          <h4 class="navbar-item">Saturn</h4>
+          <h4 class="navbar-item" tabindex="5" aria-label="Saturn">Saturn</h4>
         </div>
         <div class="navbar-item-chevron">
           <img src="./assets/icon-chevron.svg" alt="">
@@ -79,7 +79,7 @@
       <div class="navbar-item-wrapper">
         <div class="navbar-title-color-wrapper --uranus">
         <div class="navbar-item-color --uranus"></div>
-        <h4 class="navbar-item">Uranus</h4>
+        <h4 class="navbar-item" tabindex="6" aria-label="Uranus">Uranus</h4>
         </div>
         <div class="navbar-item-chevron">
           <img src="./assets/icon-chevron.svg" alt="">
@@ -88,7 +88,7 @@
       <div class="navbar-item-wrapper">
         <div class="navbar-title-color-wrapper --neptune">
         <div class="navbar-item-color --neptune"></div>
-        <h4 class="navbar-item">Neptune</h4>
+        <h4 class="navbar-item" tabindex="7" aria-label="Neptune">Neptune</h4>
         </div>
         <div class="navbar-item-chevron">
           <img src="./assets/icon-chevron.svg" alt="">
@@ -128,14 +128,14 @@
           <p class="planet-info white"></p>
           <div class="planet-info-source">
             <span class="white"> Source: </span>
-            <a class="wikipedia-link" href="#" target="_blank"> Wikipedia </a>
+            <a class="wikipedia-link" aria-label="Wikipedia Source" href="#" target="_blank" tabindex="11"> Wikipedia </a>
             <img src="./assets/icon-source.svg" alt="Wikipedia Source">
           </div>
         </div>
         <div class="planet-sections-container">
           <div class="sections">
             <div class="sections-list">
-              <button class="section button overview-btn">
+              <button class="section button overview-btn" tabindex="8">
                 <div class="section-text section-text-number">
                   01
                 </div>
@@ -143,7 +143,7 @@
                   Overview
                 </div>
               </button>
-              <button class="section button structure-btn">
+              <button class="section button structure-btn" tabindex="9">
                 <div class="section-text section-text-number">
                   02
                 </div>
@@ -151,7 +151,7 @@
                   Internal Structure
                 </div>
               </button>
-              <button class="section button geology-btn">
+              <button class="section button geology-btn" tabindex="10">
                 <div class="section-text section-text-number">
                   03
                 </div>
@@ -166,19 +166,19 @@
   </div>
   <div class="planet-info-second-section">
     <div class="planet-fact">
-      <div class="planet-fact-title">Rotation Time</div>
+      <div class="planet-fact-title" aria-label="Planet Rotation Time Display">Rotation Time</div>
       <h2 class="planet-fact-content" id="rotation-time"></h2>
     </div>
     <div class="planet-fact">
-      <div class="planet-fact-title">Revolution Time</div>
+      <div class="planet-fact-title" aria-label="Planet Revolution Time Display">Revolution Time</div>
       <h2 class="planet-fact-content" id="revolution-time"></h2>
     </div>
     <div class="planet-fact">
-      <div class="planet-fact-title">Radius</div>
+      <div class="planet-fact-title" aria-label="Planet Radius Display">Radius</div>
       <h2 class="planet-fact-content" id="radius"></h2>
     </div>
     <div class="planet-fact">
-      <div class="planet-fact-title">Average Temp.</div>
+      <div class="planet-fact-title" aria-label="Planet Average Temperature Display">Average Temp.</div>
       <h2 class="planet-fact-content" id="avg-temp"></h2>
     </div>
   </div>
